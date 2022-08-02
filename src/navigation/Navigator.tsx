@@ -5,6 +5,8 @@ import {AuthContext} from '../contexts/auth/AuthContext';
 import {Text} from 'react-native';
 import {HomeScreen} from '../screens/HomeScreen';
 import App from '../screens/ScanerScreen';
+import { InstalacionScreen } from '../screens/InstalacionesScreen';
+import { HomeMovementsEntitiesScreen } from '../screens/HomeMovementsEntitiesScreen';
 
 const Stack = createStackNavigator();
 
@@ -38,6 +40,8 @@ export const MyStack = () => {
         <>
           <Stack.Screen name="Empresas" component={HomeScreen} />
           <Stack.Screen name="qr" component={App} />
+          <Stack.Screen name="Instalaciones" component={InstalacionScreen} />
+          <Stack.Screen name="Home" component={HomeMovementsEntitiesScreen} />
         </>
       )}
     </Stack.Navigator>

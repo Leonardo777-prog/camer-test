@@ -20,7 +20,7 @@ type AuthContextProps = {
 };
 
 const authInicialState: AuthState = {
-  status: 'authenticated',
+  status: 'not-authenticated',
   token: null,
   user: null,
   errorMessage: '',

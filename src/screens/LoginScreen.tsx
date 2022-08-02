@@ -22,8 +22,8 @@ export const LoginScreen = ({navigation}: Props) => {
   const {signIn, errorMessage, removeError} = useContext(AuthContext);
 
   const {taxId, password, onChange} = useForm({
-    taxId: '',
-    password: '',
+    taxId: '20422055518',
+    password: '@meli2o21',
   });
 
  
